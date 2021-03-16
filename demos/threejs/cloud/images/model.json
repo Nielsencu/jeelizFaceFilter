@@ -1,0 +1,140 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "01193956-12A7-4A5E-B10C-2B3081C6132E",
+			"type": "BufferGeometry",
+			"data": {
+				"attributes": {
+					"position": {
+						"itemSize": 3,
+						"type": "Float32Array",
+						"array": [216.484543,87.751083,-87.751083,-216.484543,-87.751083,-87.751083,-216.484543,87.751083,-87.751083,216.484543,-87.751083,-87.751083,-216.484543,87.751083,87.751083,216.484543,-87.751083,87.751083,216.484543,87.751083,87.751083,-216.484543,-87.751083,87.751083,216.484543,87.751083,87.751083,216.484543,-87.751083,-87.751083,216.484543,87.751083,-87.751083,216.484543,-87.751083,87.751083,-216.484543,87.751083,-87.751083,-216.484543,-87.751083,87.751083,-216.484543,87.751083,87.751083,-216.484543,-87.751083,-87.751083,-216.484543,87.751083,-87.751083,216.484543,87.751083,87.751083,216.484543,87.751083,-87.751083,-216.484543,87.751083,87.751083,-216.484543,-87.751083,87.751083,216.484543,-87.751083,-87.751083,216.484543,-87.751083,87.751083,-216.484543,-87.751083,-87.751083],
+						"normalized": false
+					},
+					"normal": {
+						"itemSize": 3,
+						"type": "Float32Array",
+						"array": [0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0],
+						"normalized": false
+					}
+				},
+				"index": {
+					"type": "Uint16Array",
+					"array": [0,1,2,0,3,1,4,5,6,4,7,5,8,9,10,8,11,9,12,13,14,12,15,13,16,17,18,16,19,17,20,21,22,20,23,21]
+				},
+				"boundingSphere": {
+					"center": [0,0,0],
+					"radius": 249.531686
+				}
+			}
+		}],
+	"materials": [
+		{
+			"uuid": "E70E6B63-4E10-4659-B966-6A27E2C8790F",
+			"type": "MeshStandardMaterial",
+			"name": "100",
+			"color": 16777215,
+			"emissive": 0,
+			"specular": 16777215,
+			"map": "49A8D93A-714E-4C2D-978F-07DBF46FB60C",
+			"specularMap": "EB5C40A2-ED7E-4ED9-ADE2-6E0D921BFD1D",
+			"side": 2,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilWriteMask": 255,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilFuncMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680,
+			"userData": {
+				"MSFT_sRGBFactors": false
+			}
+		}],
+	"textures": [
+		{
+			"uuid": "49A8D93A-714E-4C2D-978F-07DBF46FB60C",
+			"name": "texture658",
+			"mapping": 300,
+			"repeat": [1,1],
+			"offset": [0,0],
+			"center": [0,0],
+			"rotation": 0,
+			"wrap": [1000,1000],
+			"format": 1023,
+			"type": 1009,
+			"encoding": 3001,
+			"minFilter": 1007,
+			"magFilter": 1006,
+			"anisotropy": 1,
+			"flipY": false,
+			"premultiplyAlpha": false,
+			"unpackAlignment": 4,
+			"image": "6318D327-92C2-47D2-AE0A-DFE2214D06A1"
+		},
+		{
+			"uuid": "EB5C40A2-ED7E-4ED9-ADE2-6E0D921BFD1D",
+			"name": "texture659",
+			"mapping": 300,
+			"repeat": [1,1],
+			"offset": [0,0],
+			"center": [0,0],
+			"rotation": 0,
+			"wrap": [1000,1000],
+			"format": 1023,
+			"type": 1009,
+			"encoding": 3000,
+			"minFilter": 1007,
+			"magFilter": 1006,
+			"anisotropy": 1,
+			"flipY": false,
+			"premultiplyAlpha": false,
+			"unpackAlignment": 4,
+			"image": "F66A5D38-188A-4B95-916C-51A5B0B56EE8"
+		}],
+	"images": [
+		{
+			"uuid": "6318D327-92C2-47D2-AE0A-DFE2214D06A1",
+			"url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAE0lEQVQoU2O09zjznwEPYBwZCgCRUhKZ/wfTsAAAAABJRU5ErkJggg=="
+		},
+		{
+			"uuid": "F66A5D38-188A-4B95-916C-51A5B0B56EE8",
+			"url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAE0lEQVQoU2O0tLRMY8ADGEeGAgDhXAiRX0vkRwAAAABJRU5ErkJggg=="
+		}],
+	"object": {
+		"uuid": "E6570F57-2B2D-4205-8203-E9939E08EAD9",
+		"type": "Group",
+		"name": "Box.glb",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "9ED84405-36AB-4447-AB5A-5157215F9281",
+				"type": "Object3D",
+				"name": "root",
+				"userData": {
+					"name": "root"
+				},
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"children": [
+					{
+						"uuid": "5C538A86-FDA4-43F6-B2C7-3FA9C5E1E5BC",
+						"type": "Mesh",
+						"name": "mesh_id27",
+						"layers": 1,
+						"matrix": [0.001,0,0,0,0,0.001,0,0,0,0,0.001,0,0.003888,0.006857,0.200078,1],
+						"geometry": "01193956-12A7-4A5E-B10C-2B3081C6132E",
+						"material": "E70E6B63-4E10-4659-B966-6A27E2C8790F"
+					}]
+			}]
+	}
+}

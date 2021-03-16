@@ -16,11 +16,11 @@ const SETTINGS = {
   strokeStyle: 'red',
   rotationOffsetX: 0, // negative -> look upper. in radians
   cameraFOV: 40,    // in degrees, 3D camera FOV
-  pivotOffsetYZ: [0.2,0.2], // XYZ of the distance between the center of the cube and the pivot
+  pivotOffsetYZ: [0.8,0.2], // XYZ of the distance between the center of the cube and the pivot
   detectionThreshold: 0.75, // sensibility, between 0 and 1. Less -> more sensitive
   detectionHysteresis: 0.05,
-  scale: [1,1.24], // scale of the 2D canvas along horizontal and vertical 2D axis
-  offsetYZ: [-0.1,-0.2], // offset of the 2D canvas along vertical and depth 3D axis
+  scale: [2,0.5], // scale of the 2D canvas along horizontal and vertical 2D axis
+  offsetYZ: [0.5,-0.4], // offset of the 2D canvas along vertical and depth 3D axis
   canvasSizePx: 512 // resolution of the 2D canvas in pixels
 };
 
@@ -185,7 +185,7 @@ function init_scene(spec){
   CTX.strokeStyle = SETTINGS.strokeStyle;
   CTX.lineWidth = 4;
   const frameImage = new Image()
-  frameImage.src = 'frame.png';
+  frameImage.src = 'tracking.png';
   frameImage.onload = function(){
     CTX.drawImage(frameImage, 0, 0, frameImage.width, frameImage.height, 0, 0, CANVAS2D.width, CANVAS2D.height);
     update_canvasTexture();

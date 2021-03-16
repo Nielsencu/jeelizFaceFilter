@@ -29,10 +29,10 @@ function init_threeScene(spec) {
   const loaderCloud = new THREE.BufferGeometryLoader()
 
   loaderCloud.load(
-    './models/cloud/cloud.json',
+    './images/model.json',
     (geometry) => {
       const mat = new THREE.MeshPhongMaterial({
-        map: new THREE.TextureLoader().load('./models/cloud/cloud.png'),
+        map: new THREE.TextureLoader().load('./images/tracking.png'),
         shininess: 2,
         specular: 0xffffff,
         opacity: 0.7,
